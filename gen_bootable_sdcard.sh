@@ -28,7 +28,6 @@ rootfs=out/target/product/beagleboneblack/rootfs.tar.bz2
 media_clips=external/ti_android_utilities/Media_Clips
 mkmmc_script=external/ti_android_utilities/am335x/mk-mmc/mkmmc-android.sh
 
-safe_copy uEnv.txt                     image_folder/
 safe_copy kernel/arch/arm/boot/uImage  image_folder/
 safe_copy u-boot/u-boot.img            image_folder/
 safe_copy u-boot/MLO                   image_folder/
